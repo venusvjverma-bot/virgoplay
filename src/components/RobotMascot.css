@@ -1,0 +1,71 @@
+/* 3D-style robot mascot — inline SVG with CSS idle animation */
+.robot-mascot {
+  --robot-duration: 4s;
+  transform-origin: 50% 80%;
+  animation: robot-bob var(--robot-duration) ease-in-out infinite;
+}
+
+.robot-mascot__head {
+  transform-origin: 50% 70%;
+  animation: robot-tilt var(--robot-duration) ease-in-out infinite;
+}
+
+.robot-mascot__hand-left {
+  transform-origin: 78% 58%;
+  animation: robot-wave-left var(--robot-duration) ease-in-out infinite;
+}
+
+.robot-mascot__hand-right {
+  transform-origin: 22% 58%;
+  animation: robot-wave-right var(--robot-duration) ease-in-out infinite;
+}
+
+.robot-mascot__foot-left {
+  transform-origin: 40% 95%;
+  animation: robot-tap-left var(--robot-duration) ease-in-out infinite;
+}
+
+.robot-mascot__foot-right {
+  transform-origin: 60% 95%;
+  animation: robot-tap-right var(--robot-duration) ease-in-out infinite;
+}
+
+.robot-mascot__eye {
+  transform-origin: center;
+  animation: robot-blink 5s ease-in-out infinite;
+}
+
+@keyframes robot-bob {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-2px); }
+}
+
+@keyframes robot-tilt {
+  0%, 100% { transform: rotate(-1.5deg); }
+  50%      { transform: rotate(1.5deg); }
+}
+
+@keyframes robot-wave-left {
+  0%, 100% { transform: rotate(0deg); }
+  50%      { transform: rotate(-4deg); }
+}
+
+@keyframes robot-wave-right {
+  0%, 100% { transform: rotate(0deg); }
+  50%      { transform: rotate(4deg); }
+}
+
+@keyframes robot-tap-left {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(1px); }
+}
+
+@keyframes robot-tap-right {
+  0%, 100% { transform: translateY(1px); }
+  50%      { transform: translateY(0); }
+}
+
+@keyframes robot-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  96%           { transform: scaleY(0.1); }
+}

@@ -1,0 +1,47 @@
+[functions.send-password-reset]
+verify_jwt = false
+
+[functions.companion-chat]
+verify_jwt = true
+
+[functions.public-test-chat]
+verify_jwt = false
+
+[functions.reset-child-account]
+verify_jwt = true
+
+[functions.test-llm-chat-connection]
+verify_jwt = true
+
+[functions.client-signup]
+verify_jwt = false
+
+[functions.client-verify]
+verify_jwt = false
+
+[functions.client-google-auth]
+verify_jwt = true
+
+[functions.process-credit-transaction]
+verify_jwt = false
+
+[functions.generate-role-image-v2]
+verify_jwt = true
+
+[functions.generate-scene-image]
+verify_jwt = true
+
+[functions.save-provider-config]
+verify_jwt = true
+
+[functions.test-provider-connection]
+verify_jwt = true
+
+[functions.llm-chat]
+verify_jwt = true
+
+[functions.save-llm-chat-config]
+verify_jwt = true
+
+[functions.promo-feedback]
+verify_jwt = false

@@ -1,0 +1,153 @@
+{
+  "projectId": "67741402",
+  "functions": {
+    "admin-manage-admins": {
+      "hasChanged": false,
+      "hash": "04fe1307405f87677f2289f6bc672451e93d8db3b21842f858405f617ce9fc6a"
+    },
+    "client-google-auth": {
+      "hasChanged": false,
+      "hash": "19d4a39b8242db87ae67751bfc20276547e6b395ff6c01b46719662482dfa5f9"
+    },
+    "client-signup": {
+      "hasChanged": false,
+      "hash": "a820cf608059c6e5f0ca1416698b3a2ced2bbf4343186b5c96ef7f0abce53c30"
+    },
+    "client-verify": {
+      "hasChanged": false,
+      "hash": "48d4ddad789c9cf60205414535e210b8cf8c7b38e5eca755ae744df0c256e1e8"
+    },
+    "companion-chat": {
+      "hasChanged": false,
+      "hash": "29c9f4700e6278bcc6e2d60afb4a2cf95d220d293f732082383ea55946cee46fc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "face-body-compose-test": {
+      "hasChanged": false,
+      "hash": "8acb8f4a10920ae96631d8b8e6688cb5054aea908b930764c0cdcd648a4df4d8c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "fix-existing-video": {
+      "hasChanged": false,
+      "hash": "a6a4ab4a5cef83de86a5082e641475bb57f84710e7985b3dda2a0764635a34c8"
+    },
+    "generate-ai-identity": {
+      "hasChanged": false,
+      "hash": "6e00a8dc56f948942c50f721ef0ae5bd8f550dc2bca5279112699994a4a22efec2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-appearance-preview": {
+      "hasChanged": false,
+      "hash": "568fc8dd7a0002baee9bb0fa9a8f3fb03a4650a2b9d48242b4204dd5017ec590c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-character-image": {
+      "hasChanged": false,
+      "hash": "b2beb2a418edb3aa2fc447d0b644389786988f09e5b7b49c7770e94622c44b55c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-dialogue-package": {
+      "hasChanged": false,
+      "hash": "56b533a53b280ee435560634836ae79a94f9d096f90590ca254d577a186a8d53c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-image-package": {
+      "hasChanged": false,
+      "hash": "7b97543010a3384f5f330523262f5f4c843360c1c18c5ad2916f8526350bde75c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-mt-scene": {
+      "hasChanged": false,
+      "hash": "e1a85d3f9ef442d6c9bebbd664bbd625d796bebe84d9c2e7b34434a780f696b1c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-role-image": {
+      "hasChanged": false,
+      "hash": "034a8663b68fd7c01e655f39e2fcd76563b5e05a0a4916cce3e9a023149c02fbc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-role-image-v2": {
+      "hasChanged": false,
+      "hash": "eda27655848cf2774c4b977f45d534ea3979cfa48d03cd20da0e940083e39456c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-scene-image": {
+      "hasChanged": false,
+      "hash": "34ae22f01d408c382cb47bb860be7553f07eceabd2b345dbdbc8b13416cdd531c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-scene-video": {
+      "hasChanged": false,
+      "hash": "bd34522b556f717fa33fd6fe40d2ef885ea2bedb5ad1e81ab271a03f1ebad577c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generate-uniform-preview": {
+      "hasChanged": false,
+      "hash": "eab53f80e0cd81cb059ccb79f88a91a677abd7741faff82b31e2e58d841829ddc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "generation-dispatcher": {
+      "hasChanged": false,
+      "hash": "2150fffba0cf9a0c31adb01fa47eb9546b87a98897653621d9fc10cb8654855dc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "identity-merge-test": {
+      "hasChanged": false,
+      "hash": "02fc30640ccf9ddbcbd78ecbc088ddb5957e9e5df484ab8612531cad88b1cd6bc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "layer-compose-test": {
+      "hasChanged": false,
+      "hash": "dfad184d8dbafca508dae77ad9c60f528d976e9b0d02860f5b6367ac43be8ff9c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "llm-chat": {
+      "hasChanged": false,
+      "hash": "dfa3c8aeee9f4d0b0d006533216bfd20e296974aa2960cbfb188afa4ebae6b6dc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "probe-promptchan-api": {
+      "hasChanged": false,
+      "hash": "dffaae88db71420470672e4d87aa44e4c62b01fd8b06af523aa585eabf1eb221c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "probe-promptchan-chat": {
+      "hasChanged": false,
+      "hash": "92c8217bec32e4b2b5c0d2430e8dbf1485828a541ccb810462aa0ef8d3f59136c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "process-credit-transaction": {
+      "hasChanged": false,
+      "hash": "267096c797e8cf61ab869f6ddc794ff3334fc9416b905b607b845b75ea69144b"
+    },
+    "public-test-chat": {
+      "hasChanged": false,
+      "hash": "b943d664c38ace3aa3bd499fae28b2c092a70fcdf94ae6552091cff288179a47c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "reset-child-account": {
+      "hasChanged": false,
+      "hash": "3da3a195b7d54eaac24312e3ab8784181645fcdfa0d27e4ca61e3d823c567ebf"
+    },
+    "resume-scene-video": {
+      "hasChanged": false,
+      "hash": "63a56cebc117e0ce996cff06c73f0dc4193ab2fec369a414e1cb9e6ad50a0b54c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "save-llm-chat-config": {
+      "hasChanged": false,
+      "hash": "146b36b72f86bc395257b96708acdb0f8337de69fb8710acb08da2f4d0d25084c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "save-provider-config": {
+      "hasChanged": false,
+      "hash": "06bed7f0bb3296c101b91c574f4ffa5d504afe5bdd6aae283b2d0a715b92bde8c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "seed-appearance-previews": {
+      "hasChanged": false,
+      "hash": "8d86fe14f3f0c9a71f2ce6c05ae770de8ee63a28011c425cc8f7fb81bcaccf9fc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "seed-body-type-previews": {
+      "hasChanged": false,
+      "hash": "a7264dede193c72ec32f1112781c4c1cd02fb11bd8e53d43cdb91758d51845c8c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "send-password-reset": {
+      "hasChanged": false,
+      "hash": "ceb7fa7a84c68df0fcbc39ba38097ecea951f6b865c934e2e2c5eac37dac31ee"
+    },
+    "test-llm-chat-connection": {
+      "hasChanged": false,
+      "hash": "f98f5edfac3456a6fd27ab660a3abdb97b8008656f31ee0f409ed5665f42ca2dc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "test-promptchan-text-to-image": {
+      "hasChanged": false,
+      "hash": "5a6c10645d787b58e5a596084f6cdf160d4cb047d3c80bb636d98acc5299ce50c2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "test-provider-connection": {
+      "hasChanged": false,
+      "hash": "a9425a7c27892e086f82a26b79936080ab7ed5940117e5c3e6b5f4d420bba9adc2e812b76b985d9b544fbef8fd107f4e2b2b50a1940e827c9e2a5c64fee7a22f"
+    },
+    "promo-feedback": {
+      "hasChanged": false,
+      "hash": "d8767ecfd56ce03d5e6f3de7aeb03e3b113058cdd19f8803a56589454912023d"
+    }
+  }
+}
