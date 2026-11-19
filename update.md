@@ -4,6 +4,18 @@ Newest update at the top. Append new entries below the existing ones after each 
 
 ---
 
+## Update Terms & Conditions — Operator Identity, Credit Model, Refunds
+- **Title:** Terms & Conditions — Operator Identity, Service Description, Credit/Refund Provisions
+- **Type:** Implementation — Terms & Conditions page only
+- **Date:** 2026-11-06
+- **Time:** 01:20 (Swedish local time, Europe/Stockholm)
+- **Change:** Updated `src/pages/portal/TermsPage.tsx` only. Added mid-document "About the Operator" section (Virgo Imagination, Södergatan 53, 195 47 Märsta, Sweden, support@virgoplay.net, no organisation number stated). Rewrote the Introduction so Virgo Imagination operates VirgoPlay and publishes/provides ALL roleplays (no independent-creator publishing). Removed old Section 5 (Creator Accounts and Publishing Roles) and old Section 10 (Creator Earnings and Monetization) entirely. Added three new sections: "Credits, Payments, and Unlocking Media" (packages purchased from Virgo Imagination, credits unlock paid images/videos, chat unlimited, credits deducted on unlock, no invented prices), "Failed Payments and Payment Problems" (no credits if payment fails/uncaptured; report to support@virgoplay.net; operator investigates; no invented refund/payment-provider procedures), "Unused Credits" (credits remain customer property during retention; 90-day retention after account closure, then forfeited subject to mandatory consumer rights — 90 days kept exactly), and "Refund Policy" (full unused package refundable; any used credit makes the package ineligible; requests to support@virgoplay.net; resolution within 48 working hours; statutory consumer/withdrawal rights preserved). Swept all remaining creator references (Sections 2, 3, 4, 6, 11, 17, 18 reworded) and renumbered sections 1–20. Preserved: 18+ requirement, Public Chat Library, accounts, fictional roleplay, media, prohibited content, IP, moderation, suspension, privacy (incl. Privacy Policy reference — Privacy Policy itself untouched), availability, disclaimers, changes to terms, governing law, contact. Removed the old Section 18 placeholder sentence ("Before these terms are published, the operator's legal business name…"). Last-updated date refreshed.
+- **Preserved:** Page design, header, shared H2/P/UL/Divider components, routing, all other pages (Privacy Policy and other pages untouched).
+- **Legal safeguards:** All new commercial sections carry explicit carve-outs ("subject to mandatory consumer rights and applicable law"; refund policy "does not restrict mandatory statutory consumer rights, including any applicable withdrawal rights"). No age-verification claims were invented; Section 2 keeps the existing "age declaration alone does not constitute independent verification" wording.
+- **Verification:** PASS — full read-through of the new page: sections numbered 1–20 with no gaps, zero remaining creator/earnings references (grep-verified), all support emails render as mailto links, `npm run build` exits 0.
+
+---
+
 ## Remove Promotional "How VirgoPlay Works" Section
 - **Title:** Promotional Page — Remove "How VirgoPlay Works" Section Entirely
 - **Type:** Implementation — section removal

@@ -73,7 +73,7 @@ export default function TermsPage() {
             Terms &amp; Conditions
           </h1>
           <p className="mt-3" style={{ color: MUTED, fontSize: 13 }}>
-            Last updated: 11 October 2026
+            Last updated: 19 November 2026
           </p>
         </div>
 
@@ -82,10 +82,10 @@ export default function TermsPage() {
             <H2>1. Introduction</H2>
             <P>Welcome to VirgoPlay.</P>
             <P>
-              VirgoPlay is an online platform focused on adult interactive roleplay, fictional storytelling, creator-published roles, and personalized digital experiences. The platform allows visitors to explore the Public Chat Library and interact with available roleplays. Registered creators may develop, publish, and manage their own roleplay experiences.
+              Virgo Imagination operates VirgoPlay. VirgoPlay is an online platform focused on adult interactive roleplay and fictional storytelling. All roleplays currently published on the platform are published and provided by Virgo Imagination. Clients can interact with available roleplays, purchase credit packages, and use credits to unlock paid images and videos. Chat access itself is unlimited.
             </P>
             <P>
-              These Terms &amp; Conditions govern your access to and use of VirgoPlay, including its website, public roleplay library, creator services, published content, and associated features.
+              These Terms &amp; Conditions govern your access to and use of VirgoPlay, including its website, public roleplay library, credit system, media content, and associated features.
             </P>
             <P>
               By accessing or using VirgoPlay, you agree to these Terms &amp; Conditions. If you do not agree, you must stop using the platform.
@@ -101,7 +101,7 @@ export default function TermsPage() {
             <UL items={[
               'You are at least 18 years old.',
               'You are legally permitted to access adult-oriented content in your location.',
-              'You will not allow minors to access your account or use your creator services.',
+              'You will not allow minors to access your account or use the platform\'s services.',
               'You will comply with applicable age restrictions and laws.',
             ]} />
             <P>
@@ -120,7 +120,7 @@ export default function TermsPage() {
               VirgoPlay provides a Public Chat Library where visitors can browse available roleplays and explore published scenarios. To start a chat, visitors must pass the platform's applicable access gate and complete the required login or registration steps.
             </P>
             <P>
-              Certain activities, including creator tools and account-specific functions, require a registered account and appropriate authentication.
+              Certain activities, including account-specific functions, require a registered account and appropriate authentication.
             </P>
             <P>
               We may update, reorganize, restrict, or remove library content and features to maintain the platform, address safety concerns, or comply with applicable law.
@@ -148,7 +148,7 @@ export default function TermsPage() {
               You are responsible for activities carried out through your account, except where applicable law provides otherwise.
             </P>
             <P>
-              Accounts and access permissions may differ depending on whether you use VirgoPlay as a creator or another registered user.
+              Accounts and access permissions may differ depending on the features available to your account.
             </P>
             <P>
               You must not create accounts to evade a suspension, impersonate another person, or circumvent platform restrictions.
@@ -158,34 +158,7 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>5. Creator Accounts and Publishing Roles</H2>
-            <P>
-              VirgoPlay allows eligible creators to develop and publish original roleplay experiences for visitors and other users.
-            </P>
-            <P>Creators are responsible for:</P>
-            <UL items={[
-              'Ensuring that their published content complies with these Terms & Conditions.',
-              'Having the necessary rights and permissions for the content they upload or publish.',
-              'Providing accurate descriptions of their roleplay experiences.',
-              'Avoiding prohibited, unlawful, deceptive, or infringing content.',
-              'Reviewing their published material for errors and inappropriate content.',
-              'Following applicable platform instructions and publishing requirements.',
-            ]} />
-            <P>
-              Submitting or publishing a role does not guarantee that it will be approved, remain available indefinitely, reach a particular audience, or generate income.
-            </P>
-            <P>
-              VirgoPlay may review, restrict, reject, unpublish, or remove roleplays that violate these terms or create legal, safety, security, or operational concerns.
-            </P>
-            <P>
-              Creators must not use the platform to distribute content that they do not have the legal right to use.
-            </P>
-          </section>
-
-          <Divider />
-
-          <section className="space-y-4">
-            <H2>6. Roleplay Experiences and Fictional Content</H2>
+            <H2>5. Roleplay Experiences and Fictional Content</H2>
             <P>
               Roleplays on VirgoPlay are designed for interactive entertainment and fictional storytelling.
             </P>
@@ -206,7 +179,7 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>7. Images, Videos, and Pre-Generated Media</H2>
+            <H2>6. Images, Videos, and Pre-Generated Media</H2>
             <P>
               Certain roleplays include supporting images and videos that are prepared in advance and revealed at appropriate points during a scenario.
             </P>
@@ -221,47 +194,82 @@ export default function TermsPage() {
               'The availability of particular media is subject to the applicable roleplay and platform rules.',
             ]} />
             <P>
-              Creators must ensure that the media they publish is lawful and that they have the necessary rights and permissions to use it.
+              All media made available on VirgoPlay must be lawful, and Virgo Imagination holds the necessary rights and permissions for the media it publishes.
             </P>
             <P>
-              No person may upload or distribute unlawful intimate imagery, non-consensual sexual content, or content that violates another person's rights.
-            </P>
-          </section>
-
-          <Divider />
-
-          <section className="space-y-4">
-            <H2>8. Prohibited Content and Activities</H2>
-            <P>
-              VirgoPlay does not permit the use of its services for unlawful, abusive, exploitative, or otherwise prohibited activities.
-            </P>
-            <P>Prohibited activities include, but are not limited to:</P>
-            <UL items={[
-              'Any sexual or exploitative content involving minors, or the sexualization of minors.',
-              "Non-consensual intimate imagery, sexual exploitation, or content that unlawfully violates another person's privacy.",
-              'Content depicting or promoting real-world sexual abuse or exploitation.',
-              'Threats, harassment, stalking, targeted abuse, or unlawful discrimination.',
-              'Fraud, impersonation, scams, or deceptive conduct.',
-              'Uploading copyrighted or otherwise protected content without the necessary rights.',
-              'Malware, malicious scripts, unauthorized access, or attempts to compromise platform security.',
-              'Scraping, automated abuse, or interference with the normal operation of the platform.',
-              'Circumventing age restrictions, account permissions, moderation decisions, or security controls.',
-              'Using VirgoPlay to facilitate unlawful conduct or violate applicable laws.',
-            ]} />
-            <P>
-              This list is not exhaustive. VirgoPlay may restrict additional content or conduct where reasonably necessary to protect users, creators, the platform, or third parties.
+              Users must not upload, share, or distribute unlawful intimate imagery, non-consensual sexual content, or content that violates another person's rights.
             </P>
           </section>
 
           <Divider />
 
           <section className="space-y-4">
-            <H2>9. Content Ownership and Intellectual Property</H2>
+            <H2>7. Credits, Payments, and Unlocking Media</H2>
             <P>
-              Creators generally retain ownership of the original content they lawfully create and publish, subject to third-party rights and applicable law.
+              Virgo Imagination operates VirgoPlay. Clients can purchase credit packages from Virgo Imagination. The available credit packages and their prices are displayed on the platform at the time of purchase.
             </P>
             <P>
-              By submitting or publishing content on VirgoPlay, you grant VirgoPlay a non-exclusive, worldwide licence to host, store, reproduce, display, distribute, and technically process that content as reasonably necessary to operate, present, secure, and promote the platform and the roleplay experience.
+              Credits are used to unlock paid images and videos within roleplays. Credits are deducted when a client unlocks paid media.
+            </P>
+            <P>
+              Chat access itself is unlimited. Chatting with roleplays does not consume credits.
+            </P>
+            <P>
+              Credits have no cash value and cannot be exchanged for money, transferred between accounts, or used outside VirgoPlay.
+            </P>
+          </section>
+
+          <Divider />
+
+          <section className="space-y-4">
+            <H2>8. Failed Payments and Payment Problems</H2>
+            <P>
+              If a payment fails and the payment is not captured, no credits are added to your account.
+            </P>
+            <P>
+              If you see a pending or temporarily reserved amount on your statement, or money appears to have been deducted despite a failed payment, please contact us at <a href="mailto:support@virgoplay.net" style={{ color: PURPLE, textDecoration: 'underline' }}>support@virgoplay.net</a>.
+            </P>
+            <P>
+              Virgo Imagination will investigate and resolve reported payment problems.
+            </P>
+          </section>
+
+          <Divider />
+
+          <section className="space-y-4">
+            <H2>9. Unused Credits</H2>
+            <P>
+              Remaining unused credits stay in your account and remain your property during the applicable retention period.
+            </P>
+            <P>
+              If your account is closed, remaining credits are retained for 90 days. After 90 days, remaining credits are forfeited, subject to mandatory consumer rights and applicable law.
+            </P>
+          </section>
+
+          <Divider />
+
+          <section className="space-y-4">
+            <H2>10. Refund Policy</H2>
+            <P>
+              A purchased credit package is eligible for a refund if the entire package remains completely unused. If any credits from that package have been used, it is not eligible for a refund under this package-refund policy.
+            </P>
+            <P>
+              Refund requests must be submitted by email to <a href="mailto:support@virgoplay.net" style={{ color: PURPLE, textDecoration: 'underline' }}>support@virgoplay.net</a>. Virgo Imagination will resolve refund requests within 48 working hours.
+            </P>
+            <P>
+              This policy does not restrict mandatory statutory consumer rights, including any applicable withdrawal rights.
+            </P>
+          </section>
+
+          <Divider />
+
+          <section className="space-y-4">
+            <H2>11. Content Ownership and Intellectual Property</H2>
+            <P>
+              Users generally retain ownership of original content that they lawfully create and submit to VirgoPlay, subject to third-party rights and applicable law.
+            </P>
+            <P>
+              By submitting content on VirgoPlay, you grant VirgoPlay a non-exclusive, worldwide licence to host, store, reproduce, display, distribute, and technically process that content as reasonably necessary to operate, present, secure, and promote the platform and the roleplay experience.
             </P>
             <P>
               This licence applies only to the extent necessary for the stated purposes and remains subject to applicable law and any separate agreement governing the content.
@@ -273,7 +281,7 @@ export default function TermsPage() {
               'You will not knowingly submit stolen, unlawfully copied, or misleadingly attributed material.',
             ]} />
             <P>
-              You must not copy, redistribute, sell, or commercially exploit another creator's content without the necessary permission or legal basis.
+              You must not copy, redistribute, sell, or commercially exploit another person's content without the necessary permission or legal basis.
             </P>
             <P>
               VirgoPlay's name, branding, website design, software, and other platform materials may be protected by intellectual property rights. You may not use these materials without authorization, except as permitted by law.
@@ -286,31 +294,21 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>10. Creator Earnings and Monetization</H2>
+            <H2>12. About the Operator</H2>
             <P>
-              VirgoPlay may provide opportunities for creators to earn through eligible roleplay activity under the platform's applicable monetization arrangements.
+              Virgo Imagination operates VirgoPlay.
             </P>
+            <P>Business name: Virgo Imagination</P>
+            <P>Business address: Södergatan 53, 195 47 Märsta, Sweden</P>
             <P>
-              Eligibility, earning calculations, and any applicable conditions depend on the relevant platform rules or separate agreements.
-            </P>
-            <P>
-              Publishing a role does not guarantee earnings, audience engagement, or any specific financial result.
-            </P>
-            <P>
-              Creators are responsible for ensuring that information they provide for any applicable earning arrangement is accurate and lawful. Where required, creators must comply with relevant tax, reporting, and other legal obligations.
-            </P>
-            <P>
-              Any specific commercial arrangement may be governed by separate terms applicable to that arrangement. If separate terms apply, they should be read together with these Terms &amp; Conditions.
-            </P>
-            <P>
-              Nothing in this section guarantees a particular income or commercial outcome.
+              Contact email: <a href="mailto:support@virgoplay.net" style={{ color: PURPLE, textDecoration: 'underline' }}>support@virgoplay.net</a>
             </P>
           </section>
 
           <Divider />
 
           <section className="space-y-4">
-            <H2>11. Content Moderation and Platform Enforcement</H2>
+            <H2>13. Content Moderation and Platform Enforcement</H2>
             <P>
               VirgoPlay may review content, investigate reports, and take reasonable measures to enforce these Terms &amp; Conditions.
             </P>
@@ -338,7 +336,7 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>12. Account Suspension and Termination</H2>
+            <H2>14. Account Suspension and Termination</H2>
             <P>You may stop using VirgoPlay at any time.</P>
             <P>
               VirgoPlay may suspend, restrict, or terminate access where reasonably necessary because of a breach of these terms, unlawful activity, security concerns, abuse, or other legitimate operational or legal reasons.
@@ -357,9 +355,9 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>13. Privacy and Personal Data</H2>
+            <H2>15. Privacy and Personal Data</H2>
             <P>
-              VirgoPlay processes personal data in connection with operating its website, providing accounts, supporting creator activities, maintaining security, and complying with legal obligations.
+              VirgoPlay processes personal data in connection with operating its website, providing accounts, handling credit purchases and media unlocks, maintaining security, and complying with legal obligations.
             </P>
             <P>
               The types of data processed and the purposes of processing depend on how you use the platform and which features you access.
@@ -384,7 +382,7 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>14. Service Availability and Changes</H2>
+            <H2>16. Service Availability and Changes</H2>
             <P>
               VirgoPlay may update, maintain, modify, or discontinue features from time to time.
             </P>
@@ -402,15 +400,15 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>15. Disclaimers and Liability</H2>
+            <H2>17. Disclaimers and Liability</H2>
             <P>
               VirgoPlay is provided subject to these Terms &amp; Conditions and applicable law.
             </P>
             <P>
-              To the extent permitted by law, we do not guarantee uninterrupted availability, error-free operation, or any particular outcome from using a roleplay or publishing content.
+              To the extent permitted by law, we do not guarantee uninterrupted availability, error-free operation, or any particular outcome from using a roleplay or unlocking media.
             </P>
             <P>
-              Users and creators are responsible for their own conduct and for ensuring that their activities comply with applicable laws and these terms.
+              Users are responsible for their own conduct and for ensuring that their activities comply with applicable laws and these terms.
             </P>
             <P>
               Nothing in these Terms &amp; Conditions excludes or limits liability where such exclusion or limitation is prohibited by applicable law. In particular, nothing here removes mandatory consumer rights or other non-waivable statutory protections.
@@ -423,7 +421,7 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>16. Changes to These Terms</H2>
+            <H2>18. Changes to These Terms</H2>
             <P>
               VirgoPlay may update these Terms &amp; Conditions to reflect changes in platform features, operational requirements, applicable laws, or business practices.
             </P>
@@ -441,7 +439,7 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>17. Governing Law and Disputes</H2>
+            <H2>19. Governing Law and Disputes</H2>
             <P>These Terms &amp; Conditions are subject to applicable law.</P>
             <P>
               Where legally permissible, Swedish law will govern disputes relating to these terms, without overriding mandatory consumer protections or other mandatory legal provisions that apply in the user's circumstances.
@@ -457,12 +455,12 @@ export default function TermsPage() {
           <Divider />
 
           <section className="space-y-4">
-            <H2>18. Contact</H2>
+            <H2>20. Contact</H2>
             <P>
-              For questions about these Terms &amp; Conditions, platform rules, creator publishing, or account-related matters, please contact VirgoPlay through the contact method provided on the website.
+              Virgo Imagination operates VirgoPlay. For questions about these Terms &amp; Conditions, platform rules, credits, refunds, or account-related matters, please contact us at <a href="mailto:support@virgoplay.net" style={{ color: PURPLE, textDecoration: 'underline' }}>support@virgoplay.net</a>.
             </P>
             <P>
-              Before these terms are published, the operator's legal business name and appropriate contact details should be supplied here.
+              The operator's business name and address are provided in the "About the Operator" section above.
             </P>
             <P>
               By using VirgoPlay, you acknowledge that you have read and understood these Terms &amp; Conditions and agree to comply with them.
