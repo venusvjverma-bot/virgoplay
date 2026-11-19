@@ -150,7 +150,7 @@ export default function AboutUsPage() {
         <div className="text-xs text-slate-400 leading-relaxed flex items-center justify-center gap-2">
           <Link to="/terms-of-service" className="hover:text-slate-600 transition-colors">Terms &amp; Conditions</Link>
           <span aria-hidden="true">&bull;</span>
-          <span>Privacy Policy</span>
+          <Link to="/privacy-policy" className="hover:text-slate-600 transition-colors">Privacy Policy</Link>
         </div>
         <div className="text-xs text-slate-400 leading-relaxed mt-1">
           <button type="button" onClick={() => setIsHelpOpen(true)} className="hover:text-slate-600 transition-colors">
