@@ -31,6 +31,7 @@ import PublicTestChatPage        from './pages/portal/PublicTestChatPage';
 import PromotionalPage           from './pages/portal/PromotionalPage';
 import ChatLibraryPage           from './pages/portal/ChatLibraryPage';
 import TermsPage                from './pages/portal/TermsPage';
+import PrivacyPolicyPage         from './pages/portal/PrivacyPolicyPage';
 import AboutUsPage              from './pages/portal/AboutUsPage';
 import TestCompanionPage        from './pages/dashboard/TestCompanionPage';
 import CharacterStudioPage      from './pages/dashboard/CharacterStudioPage';
@@ -148,6 +149,7 @@ export default function App() {
             <Route path="/chat-library"          element={<ChatLibraryPage />} />
             <Route path="/about-us"             element={<AboutUsPage />} />
             <Route path="/terms-of-service"     element={<TermsPage />} />
+            <Route path="/privacy-policy"        element={<PrivacyPolicyPage />} />
             <Route path="/test-chat"            element={<PublicTestChatPage />} />
             <Route path="/promotional-page"     element={<PromotionalPage />} />
             <Route path="/test-companion/:sessionId" element={<ProtectedRoute><TestCompanionPage /></ProtectedRoute>} />
