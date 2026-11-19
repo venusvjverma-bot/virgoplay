@@ -275,9 +275,12 @@ export default function ClientSignupPage() {
             >
               Terms &amp; Conditions
             </Link>
-            <span className="text-sm text-slate-400 hover:text-violet-600 transition-colors cursor-default">
+            <Link
+              to="/privacy-policy"
+              className="text-sm text-slate-400 hover:text-violet-600 transition-colors"
+            >
               Privacy Policy
-            </span>
+            </Link>
           </div>
           <p className="text-center text-xs text-slate-300 mt-4">
             &copy; {new Date().getFullYear()} VirgoPlay. All rights reserved.
