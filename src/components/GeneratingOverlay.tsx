@@ -28,18 +28,21 @@ export default function GeneratingOverlay() {
   }
 
   return (
-    <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white rounded-lg">
+    <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white rounded-lg overflow-hidden">
       <div
-        className="grid gap-[10px] mb-6"
+        className="absolute inset-0 grid"
         style={{
           gridTemplateColumns: `repeat(${GRID_COLS}, 1fr)`,
           gridTemplateRows: `repeat(${GRID_ROWS}, 1fr)`,
+          placeItems: 'center',
         }}
       >
         {dots}
       </div>
-      <p className="text-sm font-medium text-slate-700">Preparing the current moment…</p>
-      <p className="text-xs text-slate-400 mt-1">Please wait…</p>
+      <div className="relative z-10 flex flex-col items-center">
+        <p className="text-sm font-medium text-slate-700">Preparing the current moment…</p>
+        <p className="text-xs text-slate-400 mt-1">Please wait…</p>
+      </div>
     </div>
   );
 }
